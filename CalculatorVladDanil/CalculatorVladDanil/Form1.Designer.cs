@@ -45,7 +45,7 @@
             this.buttonPlus.TabIndex = 0;
             this.buttonPlus.Text = "+";
             this.buttonPlus.UseVisualStyleBackColor = true;
-            this.buttonPlus.Click += new System.EventHandler(this.buttonPlus_Click);
+            this.buttonPlus.Click += new System.EventHandler(this.Clicking);
             // 
             // buttonMinus
             // 
@@ -55,7 +55,7 @@
             this.buttonMinus.TabIndex = 1;
             this.buttonMinus.Text = "-";
             this.buttonMinus.UseVisualStyleBackColor = true;
-            this.buttonMinus.Click += new System.EventHandler(this.buttonMinus_Click);
+            this.buttonMinus.Click += new System.EventHandler(this.Clicking);
             // 
             // buttonMulti
             // 
@@ -65,7 +65,7 @@
             this.buttonMulti.TabIndex = 2;
             this.buttonMulti.Text = "*";
             this.buttonMulti.UseVisualStyleBackColor = true;
-            this.buttonMulti.Click += new System.EventHandler(this.buttonMulti_Click);
+            this.buttonMulti.Click += new System.EventHandler(this.Clicking);
             // 
             // buttonDivision
             // 
@@ -75,7 +75,7 @@
             this.buttonDivision.TabIndex = 3;
             this.buttonDivision.Text = "/";
             this.buttonDivision.UseVisualStyleBackColor = true;
-            this.buttonDivision.Click += new System.EventHandler(this.buttonDivision_Click);
+            this.buttonDivision.Click += new System.EventHandler(this.Clicking);
             // 
             // textBoxEntering1
             // 
@@ -83,7 +83,6 @@
             this.textBoxEntering1.Name = "textBoxEntering1";
             this.textBoxEntering1.Size = new System.Drawing.Size(100, 20);
             this.textBoxEntering1.TabIndex = 4;
-            this.textBoxEntering1.TextChanged += new System.EventHandler(this.textBoxEntering1_TextChanged);
             // 
             // textBoxEntering2
             // 
@@ -91,7 +90,6 @@
             this.textBoxEntering2.Name = "textBoxEntering2";
             this.textBoxEntering2.Size = new System.Drawing.Size(100, 20);
             this.textBoxEntering2.TabIndex = 5;
-            this.textBoxEntering2.TextChanged += new System.EventHandler(this.textBoxEntering2_TextChanged);
             // 
             // labelOut
             // 
@@ -100,7 +98,6 @@
             this.labelOut.Name = "labelOut";
             this.labelOut.Size = new System.Drawing.Size(0, 13);
             this.labelOut.TabIndex = 6;
-            this.labelOut.Click += new System.EventHandler(this.labelOut_Click);
             // 
             // Form1
             // 
