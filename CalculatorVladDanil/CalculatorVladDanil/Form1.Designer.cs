@@ -35,11 +35,13 @@
             this.textBoxEntering1 = new System.Windows.Forms.TextBox();
             this.textBoxEntering2 = new System.Windows.Forms.TextBox();
             this.labelOut = new System.Windows.Forms.Label();
+            this.buttonSinus = new System.Windows.Forms.Button();
+            this.buttonSquare = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonPlus
             // 
-            this.buttonPlus.Location = new System.Drawing.Point(12, 153);
+            this.buttonPlus.Location = new System.Drawing.Point(12, 112);
             this.buttonPlus.Name = "buttonPlus";
             this.buttonPlus.Size = new System.Drawing.Size(58, 23);
             this.buttonPlus.TabIndex = 0;
@@ -49,7 +51,7 @@
             // 
             // buttonMinus
             // 
-            this.buttonMinus.Location = new System.Drawing.Point(76, 153);
+            this.buttonMinus.Location = new System.Drawing.Point(76, 112);
             this.buttonMinus.Name = "buttonMinus";
             this.buttonMinus.Size = new System.Drawing.Size(58, 23);
             this.buttonMinus.TabIndex = 1;
@@ -59,7 +61,7 @@
             // 
             // buttonMulti
             // 
-            this.buttonMulti.Location = new System.Drawing.Point(140, 153);
+            this.buttonMulti.Location = new System.Drawing.Point(140, 112);
             this.buttonMulti.Name = "buttonMulti";
             this.buttonMulti.Size = new System.Drawing.Size(66, 23);
             this.buttonMulti.TabIndex = 2;
@@ -69,7 +71,7 @@
             // 
             // buttonDivision
             // 
-            this.buttonDivision.Location = new System.Drawing.Point(212, 153);
+            this.buttonDivision.Location = new System.Drawing.Point(212, 112);
             this.buttonDivision.Name = "buttonDivision";
             this.buttonDivision.Size = new System.Drawing.Size(60, 23);
             this.buttonDivision.TabIndex = 3;
@@ -99,11 +101,33 @@
             this.labelOut.Size = new System.Drawing.Size(0, 13);
             this.labelOut.TabIndex = 6;
             // 
+            // buttonSinus
+            // 
+            this.buttonSinus.Location = new System.Drawing.Point(12, 224);
+            this.buttonSinus.Name = "buttonSinus";
+            this.buttonSinus.Size = new System.Drawing.Size(58, 23);
+            this.buttonSinus.TabIndex = 7;
+            this.buttonSinus.Text = "Sin";
+            this.buttonSinus.UseVisualStyleBackColor = true;
+            this.buttonSinus.Click += new System.EventHandler(this.ClicklingOne);
+            // 
+            // buttonSquare
+            // 
+            this.buttonSquare.Location = new System.Drawing.Point(76, 224);
+            this.buttonSquare.Name = "buttonSquare";
+            this.buttonSquare.Size = new System.Drawing.Size(58, 23);
+            this.buttonSquare.TabIndex = 8;
+            this.buttonSquare.Text = "x^2";
+            this.buttonSquare.UseVisualStyleBackColor = true;
+            this.buttonSquare.Click += new System.EventHandler(this.ClicklingOne);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 259);
+            this.Controls.Add(this.buttonSquare);
+            this.Controls.Add(this.buttonSinus);
             this.Controls.Add(this.labelOut);
             this.Controls.Add(this.textBoxEntering2);
             this.Controls.Add(this.textBoxEntering1);
@@ -127,6 +151,8 @@
         private System.Windows.Forms.TextBox textBoxEntering1;
         private System.Windows.Forms.TextBox textBoxEntering2;
         private System.Windows.Forms.Label labelOut;
+        private System.Windows.Forms.Button buttonSinus;
+        private System.Windows.Forms.Button buttonSquare;
     }
 }
 

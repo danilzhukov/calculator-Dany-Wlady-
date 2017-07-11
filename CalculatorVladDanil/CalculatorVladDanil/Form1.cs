@@ -18,5 +18,13 @@ namespace CalculatorVladDanil
             double result = calculator.ExecuteOperation(firstArgument, secondArgument);
             labelOut.Text = result.ToString();
         }
-    }
+
+        public void ClicklingOne(object sender, EventArgs e)
+        {
+            var firstArgument = Convert.ToDouble(textBoxEntering1.Text);
+            IOneArgumentscalculator calculator = OneArgumentsFactory.CreateCalculator(((Button) sender).Name);
+            double result = calculator.OneArgumentOperation(firstArgument);
+            labelOut.Text = result.ToString();
+        }
+    }      
 }

@@ -47,6 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Addition.cs" />
+    <Compile Include="SquareArgument.cs" />
+    <Compile Include="OneArgumentsFactory.cs" />
+    <Compile Include="Sinus.cs" />
+    <Compile Include="IOneArguments.cs" />
     <Compile Include="TwoArgumentsFactory.cs" />
     <Compile Include="Substraction.cs" />
     <Compile Include="Division.cs" />
