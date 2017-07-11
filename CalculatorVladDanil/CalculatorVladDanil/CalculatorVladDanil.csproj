@@ -46,12 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\Arcsin.cs" />
+    <Compile Include="OneArgument\Arctan.cs" />
+    <Compile Include="OneArgument\ExponentiationFirstAr.cs" />
+    <Compile Include="OneArgument\DivisionFirstAr.cs" />
+    <Compile Include="OneArgument\Exp.cs" />
+    <Compile Include="OneArgument\Log.cs" />
     <Compile Include="TwoArguments\Addition.cs" />
-    <Compile Include="OneArguments\SquareArgument.cs" />
-    <Compile Include="OneArguments\OneArgumentsFactory.cs" />
-    <Compile Include="OneArguments\Sinus.cs" />
-    <Compile Include="OneArguments\IOneArguments.cs" />
-    <Compile Include="TwoArgumentsFactory.cs" />
+    <Compile Include="OneArgument\SquareArgument.cs" />
+    <Compile Include="OneArgument\OneArgumentsFactory.cs" />
+    <Compile Include="OneArgument\Sinus.cs" />
+    <Compile Include="OneArgument\IOneArguments.cs" />
+    <Compile Include="TwoArguments\Complex.cs" />
+    <Compile Include="TwoArguments\Exponentiation.cs" />
+    <Compile Include="TwoArguments\TwoArgumentsFactory.cs" />
     <Compile Include="TwoArguments\Substraction.cs" />
     <Compile Include="TwoArguments\Division.cs" />
     <Compile Include="TwoArguments\Multiplication.cs" />
@@ -61,7 +69,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ITwoArguments.cs" />
+    <Compile Include="TwoArguments\ITwoArguments.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

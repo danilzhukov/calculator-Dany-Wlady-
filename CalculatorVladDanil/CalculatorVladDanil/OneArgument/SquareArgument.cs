@@ -1,4 +1,4 @@
-﻿namespace CalculatorVladDanil
+﻿namespace CalculatorVladDanil.OneArgument
 {
     public class SquareArgument : IOneArgumentscalculator 
     {

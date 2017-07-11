@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CalculatorVladDanil
+namespace CalculatorVladDanil.OneArgument
 {
     public class Sinus : IOneArgumentscalculator
     {

@@ -1,4 +1,4 @@
-﻿namespace CalculatorVladDanil
+﻿namespace CalculatorVladDanil.OneArgument
 {
    public interface IOneArgumentscalculator
     {

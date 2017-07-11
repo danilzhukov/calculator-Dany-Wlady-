@@ -1,4 +1,4 @@
-﻿namespace CalculatorVladDanil
+﻿namespace CalculatorVladDanil.TwoArguments
 {
     public class Addition : ITwoArgumentsCalculator
     {

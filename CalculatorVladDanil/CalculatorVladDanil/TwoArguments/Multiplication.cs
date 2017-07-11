@@ -1,4 +1,4 @@
-﻿namespace CalculatorVladDanil
+﻿namespace CalculatorVladDanil.TwoArguments
 {
     public class Multiplication : ITwoArgumentsCalculator
     {
@@ -7,5 +7,4 @@
             return firstArgument * secondArgument;
         }
     }
-    }
-
+}
