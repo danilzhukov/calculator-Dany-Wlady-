@@ -46,15 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addition.cs" />
-    <Compile Include="SquareArgument.cs" />
-    <Compile Include="OneArgumentsFactory.cs" />
-    <Compile Include="Sinus.cs" />
-    <Compile Include="IOneArguments.cs" />
+    <Compile Include="TwoArguments\Addition.cs" />
+    <Compile Include="OneArguments\SquareArgument.cs" />
+    <Compile Include="OneArguments\OneArgumentsFactory.cs" />
+    <Compile Include="OneArguments\Sinus.cs" />
+    <Compile Include="OneArguments\IOneArguments.cs" />
     <Compile Include="TwoArgumentsFactory.cs" />
-    <Compile Include="Substraction.cs" />
-    <Compile Include="Division.cs" />
-    <Compile Include="Multiplication.cs" />
+    <Compile Include="TwoArguments\Substraction.cs" />
+    <Compile Include="TwoArguments\Division.cs" />
+    <Compile Include="TwoArguments\Multiplication.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +89,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
