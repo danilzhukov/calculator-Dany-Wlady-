@@ -45,6 +45,16 @@
             this.buttonXY = new System.Windows.Forms.Button();
             this.buttonArcsin = new System.Windows.Forms.Button();
             this.buttonArctan = new System.Windows.Forms.Button();
+            this.Factorial = new System.Windows.Forms.Button();
+            this.Module_of_x = new System.Windows.Forms.Button();
+            this.Ten_power_of_x = new System.Windows.Forms.Button();
+            this.sqrt_of_x = new System.Windows.Forms.Button();
+            this.arccosinus = new System.Windows.Forms.Button();
+            this.Cosinus = new System.Windows.Forms.Button();
+            this.Minimum = new System.Windows.Forms.Button();
+            this.Average = new System.Windows.Forms.Button();
+            this.Maximum = new System.Windows.Forms.Button();
+            this.Geometric = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonPlus
@@ -209,11 +219,121 @@
             this.buttonArctan.UseVisualStyleBackColor = true;
             this.buttonArctan.Click += new System.EventHandler(this.ClicklingOne);
             // 
+            // Factorial
+            // 
+            this.Factorial.Location = new System.Drawing.Point(140, 117);
+            this.Factorial.Name = "Factorial";
+            this.Factorial.Size = new System.Drawing.Size(66, 23);
+            this.Factorial.TabIndex = 18;
+            this.Factorial.Text = "Factorial";
+            this.Factorial.UseVisualStyleBackColor = true;
+            this.Factorial.Click += new System.EventHandler(this.ClicklingOne);
+            // 
+            // Module_of_x
+            // 
+            this.Module_of_x.Location = new System.Drawing.Point(140, 146);
+            this.Module_of_x.Name = "Module_of_x";
+            this.Module_of_x.Size = new System.Drawing.Size(66, 23);
+            this.Module_of_x.TabIndex = 19;
+            this.Module_of_x.Text = "Mod";
+            this.Module_of_x.UseVisualStyleBackColor = true;
+            this.Module_of_x.Click += new System.EventHandler(this.ClicklingOne);
+            // 
+            // Ten_power_of_x
+            // 
+            this.Ten_power_of_x.Location = new System.Drawing.Point(140, 175);
+            this.Ten_power_of_x.Name = "Ten_power_of_x";
+            this.Ten_power_of_x.Size = new System.Drawing.Size(66, 23);
+            this.Ten_power_of_x.TabIndex = 20;
+            this.Ten_power_of_x.Text = "10^x";
+            this.Ten_power_of_x.UseVisualStyleBackColor = true;
+            this.Ten_power_of_x.Click += new System.EventHandler(this.ClicklingOne);
+            // 
+            // sqrt_of_x
+            // 
+            this.sqrt_of_x.Location = new System.Drawing.Point(140, 204);
+            this.sqrt_of_x.Name = "sqrt_of_x";
+            this.sqrt_of_x.Size = new System.Drawing.Size(66, 23);
+            this.sqrt_of_x.TabIndex = 21;
+            this.sqrt_of_x.Text = "√";
+            this.sqrt_of_x.UseVisualStyleBackColor = true;
+            this.sqrt_of_x.Click += new System.EventHandler(this.ClicklingOne);
+            // 
+            // arccosinus
+            // 
+            this.arccosinus.Location = new System.Drawing.Point(140, 233);
+            this.arccosinus.Name = "arccosinus";
+            this.arccosinus.Size = new System.Drawing.Size(66, 23);
+            this.arccosinus.TabIndex = 22;
+            this.arccosinus.Text = "Arccos";
+            this.arccosinus.UseVisualStyleBackColor = true;
+            this.arccosinus.Click += new System.EventHandler(this.ClicklingOne);
+            // 
+            // Cosinus
+            // 
+            this.Cosinus.Location = new System.Drawing.Point(212, 119);
+            this.Cosinus.Name = "Cosinus";
+            this.Cosinus.Size = new System.Drawing.Size(66, 23);
+            this.Cosinus.TabIndex = 23;
+            this.Cosinus.Text = "Cos";
+            this.Cosinus.UseVisualStyleBackColor = true;
+            this.Cosinus.Click += new System.EventHandler(this.ClicklingOne);
+            // 
+            // Minimum
+            // 
+            this.Minimum.Location = new System.Drawing.Point(212, 146);
+            this.Minimum.Name = "Minimum";
+            this.Minimum.Size = new System.Drawing.Size(66, 23);
+            this.Minimum.TabIndex = 24;
+            this.Minimum.Text = "min(x,y)";
+            this.Minimum.UseVisualStyleBackColor = true;
+            this.Minimum.Click += new System.EventHandler(this.Clicking);
+            // 
+            // Average
+            // 
+            this.Average.Location = new System.Drawing.Point(212, 175);
+            this.Average.Name = "Average";
+            this.Average.Size = new System.Drawing.Size(66, 23);
+            this.Average.TabIndex = 25;
+            this.Average.Text = "Average";
+            this.Average.UseVisualStyleBackColor = true;
+            this.Average.Click += new System.EventHandler(this.Clicking);
+            // 
+            // Maximum
+            // 
+            this.Maximum.Location = new System.Drawing.Point(212, 204);
+            this.Maximum.Name = "Maximum";
+            this.Maximum.Size = new System.Drawing.Size(66, 23);
+            this.Maximum.TabIndex = 26;
+            this.Maximum.Text = "max(x,y)";
+            this.Maximum.UseVisualStyleBackColor = true;
+            this.Maximum.Click += new System.EventHandler(this.Clicking);
+            // 
+            // Geometric
+            // 
+            this.Geometric.Location = new System.Drawing.Point(212, 233);
+            this.Geometric.Name = "Geometric";
+            this.Geometric.Size = new System.Drawing.Size(66, 23);
+            this.Geometric.TabIndex = 27;
+            this.Geometric.Text = "Geometric";
+            this.Geometric.UseVisualStyleBackColor = true;
+            this.Geometric.Click += new System.EventHandler(this.Clicking);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 259);
+            this.Controls.Add(this.Geometric);
+            this.Controls.Add(this.Maximum);
+            this.Controls.Add(this.Average);
+            this.Controls.Add(this.Minimum);
+            this.Controls.Add(this.Cosinus);
+            this.Controls.Add(this.arccosinus);
+            this.Controls.Add(this.sqrt_of_x);
+            this.Controls.Add(this.Ten_power_of_x);
+            this.Controls.Add(this.Module_of_x);
+            this.Controls.Add(this.Factorial);
             this.Controls.Add(this.buttonArctan);
             this.Controls.Add(this.buttonArcsin);
             this.Controls.Add(this.buttonXY);
@@ -257,6 +377,16 @@
         private System.Windows.Forms.Button buttonXY;
         private System.Windows.Forms.Button buttonArcsin;
         private System.Windows.Forms.Button buttonArctan;
+        private System.Windows.Forms.Button Factorial;
+        private System.Windows.Forms.Button Module_of_x;
+        private System.Windows.Forms.Button Ten_power_of_x;
+        private System.Windows.Forms.Button sqrt_of_x;
+        private System.Windows.Forms.Button arccosinus;
+        private System.Windows.Forms.Button Cosinus;
+        private System.Windows.Forms.Button Minimum;
+        private System.Windows.Forms.Button Average;
+        private System.Windows.Forms.Button Maximum;
+        private System.Windows.Forms.Button Geometric;
     }
 }
 

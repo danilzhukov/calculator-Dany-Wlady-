@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CalculatorVladDanil.TwoArguments
+namespace CalculatorVladDanil
 {
     public static class TwoArgumentsFactory
     {
@@ -16,18 +16,6 @@ namespace CalculatorVladDanil.TwoArguments
                     return new Multiplication();
                 case "buttonDivision":
                     return new Division();
-                case "buttonExponentiation":
-                    return new Exponentiation();
-                case "buttonXY":
-                    return new Complex();
-                case "Maximum":
-                    return new Maximum();
-                case "Minimum":
-                    return new Minimum();
-                case "Average":
-                    return new Average();
-                case "Geometric":
-                    return new Geometric();
                 default:
                     throw new Exception("Неизвестная операция");
 
