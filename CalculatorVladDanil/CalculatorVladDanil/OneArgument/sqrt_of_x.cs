@@ -6,6 +6,10 @@ namespace CalculatorVladDanil.OneArgument
     {
         public double OneArgumentOperation(double firstArgument)
         {
+            if (firstArgument < 0)
+            {
+                throw new Exception("Число должно быть больше нуля");
+            }
             return Math.Pow(firstArgument,0.5);
         }
     }

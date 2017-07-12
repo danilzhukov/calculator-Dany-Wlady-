@@ -1,4 +1,5 @@
-﻿using CalculatorVladDanil.OneArgument;
+﻿using System;
+using CalculatorVladDanil.OneArgument;
 using NUnit.Framework;
 
 namespace CalculatorVladDanil.Tests.OneArgumentTests
@@ -15,6 +16,11 @@ namespace CalculatorVladDanil.Tests.OneArgumentTests
             var actualResult = calculator.OneArgumentOperation(firstValue);
             Assert.AreEqual(expected, actualResult);
         }
-
+        [Test]
+        public void ErrorTest()
+        {
+            var calculator = new sqrt_of_x();
+            Assert.Throws<Exception>(() => calculator.OneArgumentOperation(-5));
+        }
     }
 }

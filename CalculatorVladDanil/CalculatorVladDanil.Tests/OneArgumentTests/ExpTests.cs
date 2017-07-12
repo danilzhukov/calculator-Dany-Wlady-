@@ -1,16 +1,20 @@
 ﻿using CalculatorVladDanil.OneArgument;
 using NUnit.Framework;
+
 namespace CalculatorVladDanil.Tests.OneArgumentTests
 {
     [TestFixture]
-    public class CosinusTests
+    public class ExpTests
     {
-        [TestCase(0, 1)]
+        [TestCase(1, 2.7)]
+        [TestCase(2, 7.4)]
+        [TestCase(3, 20.1)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new Cosinus();
+            var calculator = new Exp();
             var actualResult = calculator.OneArgumentOperation(firstValue);
-            Assert.AreEqual(expected, actualResult);
+            Assert.AreEqual(expected, actualResult, 0.1);
         }
+
     }
 }

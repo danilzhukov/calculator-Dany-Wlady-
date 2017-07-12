@@ -1,16 +1,20 @@
 ﻿using CalculatorVladDanil.OneArgument;
 using NUnit.Framework;
+
 namespace CalculatorVladDanil.Tests.OneArgumentTests
 {
     [TestFixture]
-    public class CosinusTests
+    public class ArcsinTests
     {
-        [TestCase(0, 1)]
+        [TestCase(0.5,0.523 )]
+        [TestCase(1,1.571 )]
+        [TestCase(0.1,0.100 )]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new Cosinus();
+            var calculator = new Arcsin();
             var actualResult = calculator.OneArgumentOperation(firstValue);
-            Assert.AreEqual(expected, actualResult);
+            Assert.AreEqual(expected, actualResult, 0.001);
         }
+
     }
 }

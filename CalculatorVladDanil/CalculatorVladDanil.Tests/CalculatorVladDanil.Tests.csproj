@@ -45,12 +45,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OneArgumentTests\ArccosinusTests.cs" />
+    <Compile Include="OneArgumentTests\ArcsinTests.cs" />
+    <Compile Include="OneArgumentTests\ArctanTests.cs" />
+    <Compile Include="OneArgumentTests\DivisionArgTests.cs" />
+    <Compile Include="OneArgumentTests\ExpTests.cs" />
+    <Compile Include="OneArgumentTests\LogTests.cs" />
     <Compile Include="OneArgumentTests\OneArgumentsFactoryTests.cs" />
+    <Compile Include="OneArgumentTests\SinusTests.cs" />
+    <Compile Include="OneArgumentTests\SquareArguments.cs" />
     <Compile Include="OneArgumentTests\Ten_power_of_xTests.cs" />
     <Compile Include="OneArgumentTests\sqrt_of_xTests.cs" />
     <Compile Include="OneArgumentTests\Module_of_xTests.cs" />
     <Compile Include="OneArgumentTests\FactorialTests.cs" />
     <Compile Include="OneArgumentTests\CosinusTests.cs" />
+    <Compile Include="OneArgumentTests\Two_power_xTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentTests\AdditionTests.cs" />
     <Compile Include="TwoArgumentTests\AverageTests.cs" />
@@ -60,6 +68,7 @@
     <Compile Include="TwoArgumentTests\SubstractionTests.cs" />
     <Compile Include="TwoArgumentTests\DivisionTests.cs" />
     <Compile Include="TwoArgumentTests\MultiplicationTests.cs" />
+    <Compile Include="TwoArgumentTests\TwoArgFactoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
