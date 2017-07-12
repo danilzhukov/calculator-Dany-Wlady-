@@ -24,6 +24,19 @@ namespace CalculatorVladDanil.OneArgument
                     return new Arcsin();
                 case "buttonArctan":
                     return new Arctan();
+                case "Cosinus":
+                    return new Cosinus();
+                case "arccosinus":
+                    return new Arccosinus();
+                case "sqrt_of_x":
+                    return new sqrt_of_x();
+                case "Ten_power_of_x":
+                    return new Ten_pow_x();
+                case "Module_of_x":
+                    return new Module_of_x();
+                case "Factorial":
+                    return new Factorial();
+
                 default:
                     throw new Exception("Неизвестная операция");
 

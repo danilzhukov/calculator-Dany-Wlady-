@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="OneArgument\Arcsin.cs" />
     <Compile Include="OneArgument\Arctan.cs" />
+    <Compile Include="OneArgument\Arccosinus.cs" />
+    <Compile Include="OneArgument\Ten_power_of_x.cs" />
+    <Compile Include="OneArgument\Factorial.cs" />
+    <Compile Include="OneArgument\Module_of_x.cs" />
+    <Compile Include="OneArgument\sqrt_of_x.cs" />
+    <Compile Include="OneArgument\Cosinus.cs" />
     <Compile Include="OneArgument\ExponentiationFirstAr.cs" />
     <Compile Include="OneArgument\DivisionFirstAr.cs" />
     <Compile Include="OneArgument\Exp.cs" />
@@ -57,6 +63,10 @@
     <Compile Include="OneArgument\OneArgumentsFactory.cs" />
     <Compile Include="OneArgument\Sinus.cs" />
     <Compile Include="OneArgument\IOneArguments.cs" />
+    <Compile Include="TwoArguments\Minimum.cs" />
+    <Compile Include="TwoArguments\Maximum.cs" />
+    <Compile Include="TwoArguments\Average.cs" />
+    <Compile Include="TwoArguments\Geometric.cs" />
     <Compile Include="TwoArguments\Complex.cs" />
     <Compile Include="TwoArguments\Exponentiation.cs" />
     <Compile Include="TwoArguments\TwoArgumentsFactory.cs" />
