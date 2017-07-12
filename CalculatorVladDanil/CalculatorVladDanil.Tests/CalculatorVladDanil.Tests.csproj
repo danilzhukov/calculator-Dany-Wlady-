@@ -60,6 +60,7 @@
     <Compile Include="TwoArgumentTests\SubstractionTests.cs" />
     <Compile Include="TwoArgumentTests\DivisionTests.cs" />
     <Compile Include="TwoArgumentTests\MultiplicationTests.cs" />
+    <Compile Include="TwoArgumentTests\TwoArgFactoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
