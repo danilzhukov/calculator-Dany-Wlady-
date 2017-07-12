@@ -44,10 +44,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArgumentTests\Class1.cs" />
+    <Compile Include="OneArgumentTests\ArccosinusTests.cs" />
+    <Compile Include="OneArgumentTests\OneArgumentsFactoryTests.cs" />
+    <Compile Include="OneArgumentTests\Ten_power_of_xTests.cs" />
+    <Compile Include="OneArgumentTests\sqrt_of_xTests.cs" />
+    <Compile Include="OneArgumentTests\Module_of_xTests.cs" />
+    <Compile Include="OneArgumentTests\FactorialTests.cs" />
+    <Compile Include="OneArgumentTests\CosinusTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentTests\AdditionTests.cs" />
-    <Compile Include="TwoArgumentTests\Addition2Tests.cs" />
+    <Compile Include="TwoArgumentTests\AverageTests.cs" />
+    <Compile Include="TwoArgumentTests\MinimumTests.cs" />
+    <Compile Include="TwoArgumentTests\MaximumTests.cs" />
+    <Compile Include="TwoArgumentTests\GeometricTests.cs" />
     <Compile Include="TwoArgumentTests\SubstractionTests.cs" />
     <Compile Include="TwoArgumentTests\DivisionTests.cs" />
     <Compile Include="TwoArgumentTests\MultiplicationTests.cs" />

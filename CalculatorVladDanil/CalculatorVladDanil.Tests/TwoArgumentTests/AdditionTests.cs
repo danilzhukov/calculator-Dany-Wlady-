@@ -3,20 +3,19 @@ using NUnit.Framework;
 
 namespace CalculatorVladDanil.Tests.TwoArgumentTests
 {
-   
-        [TestFixture]
-        public class AdditionTests
+    [TestFixture]
+    public class AdditionTests
+    {
+        [TestCase(0, 0, 0)]
+        [TestCase(3, 4, 7)]
+        [TestCase(-7, -2, -9)]
+        public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            [Test]
-            public void AdditionTest()
-            {
-                double first = 2;
-                double second = 2;
-            var calc=new Addition();
-                double result = calc.ExecuteOperation(first,second);
-                Assert.AreEqual(4, result);
-            }
- 
+            var calculator = new Addition();
+            var actualResult = calculator.ExecuteOperation(firstValue, secondValue);
+            Assert.AreEqual(expected, actualResult);
         }
 
     }
+}
+

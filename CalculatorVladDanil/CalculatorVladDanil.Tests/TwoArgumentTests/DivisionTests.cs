@@ -6,14 +6,16 @@ namespace CalculatorVladDanil.Tests.TwoArgumentTests
     [TestFixture]
     public class DivisionTests
     {
-        [Test]
-        public void DivisionTest()
+        [TestCase(4, 2, 2)]
+        [TestCase(10, 5, 2)]
+        [TestCase(100, 10, 10)]
+        public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            double first = 2;
-            double second = 2;
-            var calc = new Division();
-            double result = calc.ExecuteOperation(first, second);
-            Assert.AreEqual(1, result);
+            var calculator = new Division();
+            var actualResult = calculator.ExecuteOperation(firstValue, secondValue);
+            Assert.AreEqual(expected, actualResult);
         }
+
     }
 }
+
