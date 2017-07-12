@@ -1,8 +1,9 @@
 ﻿using System;
 using CalculatorVladDanil.OneArgument;
-using CalculatorVladDanil.TwoArguments;
 using NUnit.Framework;
-
+/// <summary>
+/// The class performs a testing of the calculator factory for one argument
+/// </summary>
 namespace CalculatorVladDanil.Tests.OneArgumentTests
 {
     [TestFixture]

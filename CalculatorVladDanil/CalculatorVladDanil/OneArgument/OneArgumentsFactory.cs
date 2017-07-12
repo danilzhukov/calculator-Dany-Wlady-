@@ -1,5 +1,7 @@
 ﻿using System;
-
+/// <summary>
+/// Calculators factory for one argument
+/// </summary>
 namespace CalculatorVladDanil.OneArgument
 {
    public static class OneArgumentsFactory

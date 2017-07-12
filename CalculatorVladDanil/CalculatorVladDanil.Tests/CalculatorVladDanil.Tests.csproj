@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="OneArgumentTests\ArccosinusTests.cs" />
     <Compile Include="OneArgumentTests\ArcsinTests.cs" />
     <Compile Include="OneArgumentTests\ArctanTests.cs" />
@@ -62,6 +65,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentTests\AdditionTests.cs" />
     <Compile Include="TwoArgumentTests\AverageTests.cs" />
+    <Compile Include="TwoArgumentTests\ComplexTests.cs" />
+    <Compile Include="TwoArgumentTests\Exponen_x_to_yTests.cs" />
     <Compile Include="TwoArgumentTests\MinimumTests.cs" />
     <Compile Include="TwoArgumentTests\MaximumTests.cs" />
     <Compile Include="TwoArgumentTests\GeometricTests.cs" />
@@ -78,6 +83,17 @@
       <Project>{4a27d5e6-a078-4f4d-a063-29a132c475fa}</Project>
       <Name>CalculatorVladDanil</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\CalculatorVladDanil.exe" />
+    <Content Include="bin\Debug\CalculatorVladDanil.pdb" />
+    <Content Include="bin\Debug\CalculatorVladDanil.Tests.dll" />
+    <Content Include="bin\Debug\CalculatorVladDanil.Tests.pdb" />
+    <Content Include="bin\Debug\nunit.framework.dll" />
+    <Content Include="bin\Debug\nunit.framework.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -2,7 +2,11 @@
 using System.Windows.Forms;
 using CalculatorVladDanil.OneArgument;
 using CalculatorVladDanil.TwoArguments;
-
+/// <summary>
+/// Initializing form components and handling keystrokes
+/// Clicking for two argument
+/// ClicklingOne one argument
+/// </summary>
 namespace CalculatorVladDanil
 {
     public partial class Form1 : Form
@@ -11,7 +15,6 @@ namespace CalculatorVladDanil
         {
             InitializeComponent();
         }
-
         public void Clicking(object sender, EventArgs e)
         {
             var firstArgument = Convert.ToDouble(textBoxEntering1.Text);

@@ -1,7 +1,9 @@
 ﻿using System;
 using CalculatorVladDanil.OneArgument;
 using NUnit.Framework;
-
+/// <summary>
+/// The class performs Arccosinus function testing
+/// </summary>
 namespace CalculatorVladDanil.Tests.OneArgumentTests
 {
     [TestFixture]
