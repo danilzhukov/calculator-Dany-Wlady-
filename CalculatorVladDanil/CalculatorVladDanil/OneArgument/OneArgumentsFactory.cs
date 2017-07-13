@@ -1,11 +1,12 @@
 ﻿using System;
-/// <summary>
-/// Calculators factory for one argument
-/// </summary>
+
 namespace CalculatorVladDanil.OneArgument
 {
    public static class OneArgumentsFactory
     {
+        /// <summary>
+        /// Calculators factory for one argument
+        /// </summary>
         public static IOneArgumentscalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

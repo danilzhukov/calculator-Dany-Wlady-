@@ -1,9 +1,10 @@
 ﻿using System;
-/// <summary>
-/// The class performs the mathematical function Arctan
-/// </summary>
+
 namespace CalculatorVladDanil.OneArgument
 {
+    /// <summary>
+    /// The class performs the mathematical function Arctan
+    /// </summary>
     public class Arctan : IOneArgumentscalculator
     {
         public double OneArgumentOperation(double firstArgument)

@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections.Specialized;
-/// <summary>
-/// The class performs the mathematical function Arccosinus
-/// </summary>
+
 namespace CalculatorVladDanil.OneArgument
 {
+    /// <summary>
+    /// The class performs the mathematical function Arccosinus
+    /// </summary> 
     public class Arccosinus : IOneArgumentscalculator
     {
         public double OneArgumentOperation(double firstArgument)
