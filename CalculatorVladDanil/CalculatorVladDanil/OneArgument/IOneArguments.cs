@@ -1,6 +1,9 @@
 ﻿namespace CalculatorVladDanil.OneArgument
 {
-   public interface IOneArgumentscalculator
+    /// <summary>
+    /// Interface for factory
+    /// </summary>
+    public interface IOneArgumentscalculator
     {
         double OneArgumentOperation(double firstArgument);
     }

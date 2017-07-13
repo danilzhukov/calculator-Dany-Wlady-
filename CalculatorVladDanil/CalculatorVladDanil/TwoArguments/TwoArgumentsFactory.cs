@@ -2,8 +2,16 @@
 
 namespace CalculatorVladDanil.TwoArguments
 {
+    /// <summary>
+    /// Factory for two argument functions
+    /// </summary>
     public static class TwoArgumentsFactory
     {
+        /// <summary>
+        /// Method for creating instance of class
+        /// </summary>
+        /// <param name="calculatorName">Input button name</param>
+        /// <returns>Instance of class</returns>
         public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

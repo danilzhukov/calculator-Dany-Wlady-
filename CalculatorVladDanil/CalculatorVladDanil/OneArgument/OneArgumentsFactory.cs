@@ -2,11 +2,16 @@
 
 namespace CalculatorVladDanil.OneArgument
 {
+    /// <summary>
+    /// Factory for one argument functions
+    /// </summary>
    public static class OneArgumentsFactory
     {
         /// <summary>
-        /// Calculators factory for one argument
+        /// Method for creating instance of class
         /// </summary>
+        /// <param name="calculatorName">Input button name</param>
+        /// <returns>Instance of class</returns>
         public static IOneArgumentscalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)
